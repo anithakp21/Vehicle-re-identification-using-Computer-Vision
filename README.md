@@ -18,10 +18,7 @@ improving the performance of the vehicle re-identification
 task. This report is a study of various CNN architecture
 being used for vehicle re-identification.
 
-CNN architetcures used in this study are:
-1.mobilenet_v3_small
-2.resnet18
-3.regnet_x_400mf
-
-Explored different data augmentation techniques,optimizers like Adam, RMSprop, SGD Hyperparameters like learning rate, batch size, learning rate scheduler, step size.
-Also experimented with modification in ResNet-18 architecture by adding a 5th convolution layer and also changing the activation to LeakyReLU.
+1. CNN architetcures used in this study are: mobilenet_v3_small, resnet18, regnet_x_400mf
+2. Explored different data augmentation techniques,optimizers like Adam, RMSprop, SGD Hyperparameters like learning rate, batch size, learning rate scheduler, step size.
+3. Also experimented with modification in ResNet-18 architecture by adding a 5th convolution layer and also changing the activation to LeakyReLU.
+4. The evalution parameter used to evaluate the model was mean avaerage precision- mAp.
