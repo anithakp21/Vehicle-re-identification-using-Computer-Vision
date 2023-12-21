@@ -15,5 +15,13 @@ networks are commonly used in vehicle re-identification
 tasks. These methods have been shown to be effective in
 capturing and learning relevant features from images and
 improving the performance of the vehicle re-identification
-task. This report is a study of various Resnet18 architecture
-being used for vehicle re-identification on the VeRi dataset
+task. This report is a study of various CNN architecture
+being used for vehicle re-identification.
+
+CNN architetcures used in this study are:
+1.mobilenet_v3_small
+2.resnet18
+3.regnet_x_400mf
+
+Explored different data augmentation techniques,optimizers like Adam, RMSprop, SGD Hyperparameters like learning rate, batch size, learning rate scheduler, step size.
+Also experimented with modification in ResNet-18 architecture by adding a 5th convolution layer and also changing the activation to LeakyReLU.
